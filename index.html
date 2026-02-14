@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List App</title>
+    <link rel="icon" type="image/png" href="favicon.jpg">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <span id="logo-icon">
+            <a href="#">
+                <img src="logo.png" width="90px" alt="To-do App">
+            </a>
+        </span>
+        <div id="menu-icon">
+            <button class="menuBtn">
+                <img src="menu.png" width="65px" alt="To-do List">
+            </button>
+        </div>
+        
+    </header>
+    
+    <main>
+        <div class="to-do-container">
+            <input type="text" name="To-do Name" class="to-do-input" placeholder="Enter your To-do List">
+            <button class="add-button">Add</button>
+        </div>
+    </main>
+
+    <div id="todoModal" class="modal-overlay">
+        <div class="modalContent">
+            <button class="modal-close-btn">&times;</button>
+            <h2>To-do List</h2>
+            <ul class="taskList"></ul>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
