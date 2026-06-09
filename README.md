@@ -3,7 +3,7 @@
 A modern, responsive task management application that helps users organize their daily goals. This project focuses on CRUD operations and persistent data storage using the browser's LocalStorage.
 
 ## 🚀 Live Demo
-[View Live Site](https://daniel-chijioke.github.io/To-do-list-App/)
+[View Live Site](https://daniel-chijioke.github.io/To-do-List-App/)
 
 ## ✨ Key Features
 * **Task Persistence:** Uses `localStorage` to ensure your tasks remain saved even after closing the browser or refreshing the page.
